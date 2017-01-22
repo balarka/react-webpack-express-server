@@ -10,10 +10,10 @@ npm start
 Open http://0.0.0.0:3000/ in your browser.
 ```
 # Overview
-This project runs with React, transpiling ES6/7 features with hot-reload support of assets. This setup enables both front-end development and API development using express node server simultaneously, for any UI interaction via json REST API. 
+This project runs with React, transpiling ES6/7 features with hot-reload support of assets. This setup enables both front-end development and API development using express node server simultaneously, for any UI interaction via json REST API.
 
 # Note
-This project doesn't use webpack-dev-server for instant hot-reload, but instead uses middleware 'webpack-hot-middleware', as the former is memory intense during development.
+This project doesn't use webpack-dev-server for development configuration and build process, but instead uses middleware 'webpack-hot-middleware', as the former is memory intense during development.
 
 # Linting
 Run eslint to verify all files for lint errors/warnings.
