@@ -14,3 +14,9 @@ This project runs with React, transpiling ES6/7 features with hot-reload support
 
 # Note
 This project doesn't use webpack-dev-server for instant hot-reload, but instead uses middleware 'webpack-hot-middleware', as the former is memory intense during development.
+
+# Linting
+Run eslint to verify all files for lint errors/warnings.
+```bash
+npm run eslint
+```
