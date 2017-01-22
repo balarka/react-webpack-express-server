@@ -37,9 +37,9 @@ const config = {
         test: /\.json?$/,
         loader: 'json'
       }, {
-        test: /\.css$/,
+        test: /\.[s]css$/,
         loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]'
-      }]
+      } ]
     }
 };
 
